@@ -13,13 +13,9 @@ Implemented encryption and robust security measures to ensure the safe storage o
 **Technologies Used**
 
 HTML
-
 CSS
-
 JavaScript
-
 PHP
-
 MySQL
 
 
@@ -28,7 +24,5 @@ MySQL
 The project consists of the following components:
 
 **Frontend:** User-friendly interfaces designed using HTML, CSS, and JavaScript to facilitate seamless interaction with the reservation system.
-
 **Backend:** Utilizes PHP scripts to handle server-side logic and interact with the MySQL database for data storage and retrieval.
-
 **Database:** MySQL database used to store passenger information, reservation details, and travel schedules, ensuring data integrity and security.
