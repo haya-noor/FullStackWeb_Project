@@ -1,0 +1,372 @@
+/* @import url("https://api.fontshare.com/v2/css?f[]=britney@1&display=swap"); */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* ------------------------HOME(START)--------------------------- */
+body, html{
+    /* height: 100rm; */
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    height: 19px;
+    padding: 2rem 2rem;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style-type: none;
+}
+li > a{
+    text-decoration: none;
+    color: white;
+    margin-left: 3rem;
+}
+.container{
+    position: relative;
+    font-family: monospace;
+}
+.container .text{
+    position: absolute; 
+    bottom: 0;
+    color: #f1f1f1;
+    width: 300px;
+    bottom: 700px;
+    top: 150px;
+    left: 100px;
+    right: 10px;
+    height: 170px;
+    padding: 20px;
+}
+
+.outer{
+    position: absolute; 
+    bottom: 0;
+    background: rgb(248, 245, 245);                    /*    Fallback color */
+    background: rgba(255, 255, 255, 0.5);             /*  Black background with 0.5 opacity */
+    color: #f0d4d4;
+    width: 300px;
+    bottom: 700px;
+    top: 150px;
+    left: 900px;
+    right: 100px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 25px;
+}
+.inner1{
+    width:100px;
+    height: 30px;
+    background-color:darkgoldenrod;
+    margin: 50px;
+    margin-left: 90px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+.inner2{
+    width:100px;
+    height: 30px;
+    background-color:darkgoldenrod;
+    margin: 50px;
+    margin-left: 90px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+
+.inner1 > a{
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem; 
+    font-size: bolder;
+}
+.inner2 > a{
+    text-decoration: none;
+    color: white;
+    margin-left:2rem; 
+    font-size: bolder;
+}
+
+/* ------------------Footer(Start)------------------ */
+.footer {
+    display: inline-flex;
+    justify-content: space-between;
+    background: #282828;
+    color: #c5c6c7;
+    font-size: 0.9rem;
+    width: 98%; 
+    height:20px;
+    position: fixed;
+
+    bottom: 0px;
+    left: 0; 
+    padding: 1rem 1rem;
+}
+
+.footer a {
+    color: inherit;
+    text-decoration: none;
+    padding: 2rem 2rem;
+}
+
+.footer a:hover {
+    color:darkgoldenrod;
+}
+/* ------------------Footer(End)------------------ */
+/* ------------------------HOME(END)--------------------------- */
+
+
+/* -------------- contact.html BODY (start) -------------- */
+.contact-body-content {
+    font-size: 300%;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10%;
+    display: grid;
+    place-content: center;
+}
+
+.social {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.social a {
+    padding-right: 3rem;
+}
+/* -------------- contact.html BODY (end) -------------- */
+
+
+/* ----------------- Student and ADMIN BODY (start)------------- */
+.authentication
+{
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px 4px rgba(112, 65, 65, 0.5);
+    width: 500px;
+    height: 400px;
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: monospace;
+    /* display: flex;
+    flex-direction: column;*/
+} 
+.authentication a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: monospace;
+    margin-top: 10px;
+    margin-left: 10px;   /* 190 */
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+/* ----------------- Student and ADMIN BODY (end)------------- */
+
+/* ----------------- Sign Up (start)------------- */
+.signup {
+    margin: 50px auto;
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .signup h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .signup form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup label {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .signup input[type="text"],
+  .signup input[type="password"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: rgba(126, 122, 122, 0.5);
+  }
+  
+  .signup input[type="submit"] {
+    background-color:rgba(44, 38, 38, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup input[type="submit"]:hover {
+    background-color: #5d5f60;
+  }
+/* ----------------- Sign Up (end)------------- */
+
+/* ----------------- login (start)------------- */
+.login {
+    margin: 50px auto;
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .login h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .login form {
+    display: flex;
+    flex-direction: column;
+  }
+  .login label {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .login input[type="text"],
+  .login input[type="password"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: rgba(126, 122, 122, 0.5);
+  }
+  
+  .login input[type="submit"] {
+    background-color:rgba(44, 38, 38, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login input[type="submit"]:hover {
+    background-color: #5d5f60;
+  }
+/* ----------------- login (end)------------- */
+
+/*------------------Contact us page ----------*/
+
+.about_us
+{
+    margin-left: 1cm;
+    height: 15rem;
+}
+.container_co
+{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 30%;
+    /* justify-content: center;  */
+    /* align-items: center; */
+    
+}
+.box1
+{
+    /* background-color: aqua; */
+    color: aliceblue;
+    display: flex;
+    background-color: black;
+    width:40%;
+    height:190px;
+    margin:0cm;
+    justify-content: center;
+    
+    /* float:left; */  
+
+}
+.box2
+{
+    color: aliceblue;
+    display: flex;
+    background-color: black;
+    width:60%;
+    height:190px;
+    margin:0cm;
+    justify-content: center;
+    float:left;
+    clear:both;
+    
+}
+
+.icn
+{
+background-image: url("map1.png");
+
+background-color: beige;
+display: flex;
+flex-direction: row;
+/* position: relative; */
+/* top:0px; */
+flex-wrap: wrap;
+height: 75vh;
+justify-content: center; 
+bottom: 60cm;
+margin-top: 0%;
+/* align-items: center; */
+/* height: 800px;; */
+}
+
+
+.sz
+{
+font-size: large;
+display: flex;
+flex-direction: row;
+width:100%;
+top: 80%;
+justify-content: center; 
+align-items: center;
+align-self:center;
+bottom: 0cm;
+
+}
+
+.fa-2xl
+{
+  color:#5d5f60;
+}
